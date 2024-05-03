@@ -753,6 +753,12 @@ def main():
         st.write("- **Dataset Link:** [Adidas Sales Dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)")
         st.write("**Brief Description:** The Adidas Sales Dataset provides detailed information on Adidas sales, including the number of units sold, total sales revenue, sales locations, product types, and other relevant data. This dataset offers insights into Adidas's sales performance, market presence, and product preferences across different regions and product categories.")
 
+        st.write("")
+        st.write("")
+
+        st.subheader('Data Flow')
+        st.write("")
+        st.image("data_flow.png", use_column_width='auto')
 
     elif page == 'Adidas Analysis Page':
         st.header('Overall Analysis of Adidas')
