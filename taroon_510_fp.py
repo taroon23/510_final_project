@@ -756,7 +756,7 @@ def main():
         st.write("")
         st.write("")
 
-        st.subheader('Data Flow')
+        st.subheader('Data Flow Diagram')
         st.write("")
         st.image("data_flow.png", use_column_width='auto')
 
