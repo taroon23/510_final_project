@@ -650,7 +650,7 @@ def main():
             
             - **Other Considerations**: Additionally, we encountered other minor challenges such as data preprocessing, handling missing values, and ensuring the accuracy of sentiment analysis results. However, through careful data processing and analysis, we were able to mitigate these challenges to some extent.
                     
-            - **Used an env file to save my Google Shopping API key, but streamlit had problems installing that module. Hence, my API key is exposed in the code.
+            - **Streamlit Limitation**: Used an env file to save my Google Shopping API key, but streamlit had problems installing that module. Hence, my API key is exposed in the code.
         """)
 
         
